@@ -38,7 +38,7 @@ public class CityDao {
     private SqlSession sqlSession;
 
     public City selectCityById(long id) {
-        return this.sqlSession.selectOne("selectCityB000000000yId", id);
+        return this.sqlSession.selectOne("selectCity11", id);
     }
 
 }
