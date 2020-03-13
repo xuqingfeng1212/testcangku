@@ -46,7 +46,7 @@ public class SampleXmlApplication implements CommandLineRunner {
     }
 
     public void run(String... args) throws Exception {
-        PageHelper.startPage(1, 22); // 77
+        PageHelper.startPage(1, 22); // 88
         List<Country> countries = countryMapper.selectAll();
         System.out.println("Total: " + ((Page) countries).getTotal());
         for (Country country : countries) {
